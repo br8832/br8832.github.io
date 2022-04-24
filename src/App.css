@@ -36,3 +36,197 @@
     transform: rotate(360deg);
   }
 }
+html {
+  box-sizing: border-box;
+  font-size: 1.05rem;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 4em;
+  margin: 0;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3em;
+  margin: 0;
+}
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.15em;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  color: red;
+}
+.profile-img{
+  border-radius: 50%;
+}
+.column-narrow{
+  width: 30%; 
+  float: left;  
+  min-height: 175px;
+  
+}
+.column-wide{
+  width: 70%; 
+  float: left; 
+  padding-left: 3%;
+  min-height: 225px;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+nav {
+  margin-bottom: 5px;
+  background-color: #405d27;
+  z-index: 1;
+}
+.navbar a {
+  text-decoration: none;
+  color: turquoise;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 10px;
+  width: 15%;
+}
+a.download {
+  color: white;
+  background-color: black;
+}
+.navbar {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+p
+{
+  font-size: 1.3em;
+}
+li 
+{
+  font-size: 1.5rem;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background-color: #82b74b;
+}
+
+footer {
+  background-color: #3e4444;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: orange
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+.work {
+  background-color: #c1946a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+  background: linear-gradient(rgba(170,230,280, 0.1), rgba(70,30,80, 0.9)), url(https://cdn.glitch.com/306ecdbb-5d88-4a04-a6af-bcf15ec1ea0e%2Fspiral_plexus_multicolored_121325_1920x1080.jpg?v=1621121900662) no-repeat fixed 0px 0px / cover;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.popup {
+    font-family: Lexend;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    position: fixed;
+    background-color: rgba(63, 51, 30, 0.48);
+    padding-top: 110px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  z-index: 999;
+}
+.popup-content {
+    text-align:center;
+    width: 50%;
+    padding: 16px 8px;
+    margin: auto;
+}
+.popup-close {
+    background-color: red;
+    color: black;
+    margin-top: -10px;
+    font-weight: bold;
+    padding: 0px 3px;
+    float: right;
+    font-size: 1em;
+}
+.popup-close:hover,
+.popup-close:focus {
+    cursor: pointer;
+    color: #ccc;
+    background-color: #ec5656;
+}
+
+/* slideShow */
+@import "../node_modules/react-slideshow-image/dist/styles.css";
+.slideshow {
+  background-color: #61dafb;
+  margin-bottom: -2%;
+}
+.slides{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slide-item{
+  flex: 1;
+  text-align: center;
+}
+.slide-item1{
+  flex: 2;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.myIndicator{
+  cursor:pointer;
+  color:black;
+  text-align:center;
+  border-radius:50%;
+  border:1px #222222 solid;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px #666 solid      
+}
+.myIndicator.active{
+  background:#20E1ED;
+  color: #fff;
+}
