@@ -47,6 +47,7 @@ html {
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: #61dafb;
 }
 h1 {
   font-family: 'PT Sans', sans-serif;
@@ -60,7 +61,18 @@ h2 {
 }
 h3 {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.15em;
+  font-size: 1.5em;
+}
+a:link, a:visited {
+  cursor: pointer;
+  color: ghostwhite;
+  text-decoration: underline;
+  
+}
+
+a:link:active, a:visited:active {
+  color:royalblue;
+  cursor: pointer;
 }
 .content-wrap {
   max-width: 950px;
@@ -97,6 +109,10 @@ nav {
   background-color: #405d27;
   z-index: 1;
 }
+.navbar > a:hover {
+  background-color: #ccc;
+  color:darkblue
+}
 .navbar a {
   text-decoration: none;
   color: turquoise;
@@ -107,7 +123,7 @@ nav {
   padding: 10px;
   width: 15%;
 }
-a.download {
+a.download, a.download:hover {
   color: white;
   background-color: black;
 }
@@ -142,7 +158,7 @@ footer {
 }
 
 
-/* Work Experience
+/* Work 
 ------------------------------------*/
 
 .work {
@@ -154,7 +170,7 @@ footer {
 /* Education
 ------------------------------------*/
 .education {
-  background: linear-gradient(rgba(170,230,280, 0.1), rgba(70,30,80, 0.9)), url(https://cdn.glitch.com/306ecdbb-5d88-4a04-a6af-bcf15ec1ea0e%2Fspiral_plexus_multicolored_121325_1920x1080.jpg?v=1621121900662) no-repeat fixed 0px 0px / cover;
+  background: linear-gradient(rgba(170,230,280, 0.1), rgba(70,30,80, 0.9)), url(./images/spiral.jpg) no-repeat fixed 0px 0px / cover;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -197,7 +213,7 @@ footer {
 @import "../node_modules/react-slideshow-image/dist/styles.css";
 .slideshow {
   background-color: #61dafb;
-  margin-bottom: -2%;
+  font-family: 'PT Sans', sans-serif;
 }
 .slides{
   display: flex;
@@ -209,9 +225,11 @@ footer {
   flex: 1;
   text-align: center;
 }
+.slide-item > a > img:hover  {
+  border:blueviolet 1rem groove 
+}
 .slide-item1{
   flex: 2;
-  font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
   text-align: left;
 }
@@ -219,14 +237,11 @@ footer {
   cursor:pointer;
   color:black;
   text-align:center;
+  padding: 1rem;
   border-radius:50%;
-  border:1px #222222 solid;
-  cursor: pointer;
-  padding: 10px;
-  text-align: center;
-  border: 1px #666 solid      
+  border:1px #222222 solid;   
 }
 .myIndicator.active{
-  background:#20E1ED;
+  background:#9ebb0c;
   color: #fff;
 }

@@ -9,12 +9,20 @@ class Education extends React.Component{
             degree: "Bachelor of Computer Science",
             additional_info:"Member of the Association for Computing Machinery(ACM) chapter since 2020"
         }
+        this.certificates = [{name:"Google Data Analytics", path:"https://coursera.org/verify/professional-cert/Y4M5L7BRUDM5"},
+        {name:"Google IT Automation", path:"https://coursera.org/verify/professional-cert/M86RQ9G8SZ7S"}]
     }
     details() {
-        return(
-            Object.keys(this.college).map((item) => {
+        return(<>
+            <h2>Education</h2>
+            {Object.keys(this.college).map((item) => {
             return (item === "name") ? <h3><b>{this.college[item]}</b></h3> :  <p>{this.college[item]}</p>
-            })
+            })}
+            <h2>Certificates</h2>
+            <ul>
+            {this.certificates.map((certificate) => <li><a target="_blank" rel="noreferrer" href={certificate.path}>{certificate.name}</a></li>)}
+            </ul>
+            </>
         )
     }
     render() {
@@ -22,11 +30,7 @@ class Education extends React.Component{
             /* Education */
         <section id="education" class="education">
         <div class="content-wrap">
-        <h2>Education</h2>
-  {/* School details: copy this whole block to add more schools. */}
-  {/* Add as many paragraphs as you need. */}
            {this.details()}
-  {/* End of school details. */}
 </div> 
 </section>
 
