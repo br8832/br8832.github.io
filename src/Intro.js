@@ -22,10 +22,11 @@ class Intro extends React.Component{
         menu.style.display = border ? 'inherit' : "none"
         
     }
-    clearMenu(){
+    clearMenu(location){
             let menu = document.getElementsByTagName('aside')[0];
             menu.className = "";
-            menu.style.display = 'none'
+            menu.style.display = 'none';
+            window.location.href="#"+location;
     }
 
     mobileMenu(){
@@ -34,7 +35,7 @@ class Intro extends React.Component{
                 <span onClick={this.clearMenu} class='popup-close'><i class="fas fa-times"></i></span>
                 <ul>
                 {this.sections.map((item) =>
-                {return <li key={item} onClick={this.clearMenu}><a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a></li>})}
+                {return <li key={item} onClick={() => {this.clearMenu(item)}}><a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a></li>})}
                 </ul>
             </aside>
         )
