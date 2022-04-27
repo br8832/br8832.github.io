@@ -1,8 +1,4 @@
-import Intro from './Intro'
-import Footer from './Footer'
-import Education from './Education'
-import Projects from './Projects'
-import Work from './Work'
+import {Education, Footer, Intro, Projects, Work} from './components'
 import {useState} from 'react'
 import './App.css';
 
