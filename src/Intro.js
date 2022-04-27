@@ -31,7 +31,7 @@ class Intro extends React.Component{
     mobileMenu(){
         return(
             <aside class="initialMobileMenu">
-                <span onClick={this.clearMenu} class='popup-close'>X</span>
+                <span onClick={this.clearMenu} class='popup-close'><i class="fas fa-times"></i></span>
                 <ul>
                 {this.sections.map((item) =>
                 {return <li key={item} onClick={this.clearMenu}><a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a></li>})}
@@ -41,10 +41,11 @@ class Intro extends React.Component{
 
     }
     render(){
-        window.addEventListener('resize',this.showMobileMenu)
+        //window.addEventListener('resize',this.showMobileMenu) - for testing on desktop
         return(
         <header>
             {this.anchorList()}
+            <span onClick={this.showMobileMenu} class="popup-close"><i class="fas fa-bars"></i></span>
             {this.mobileMenu()}    
         <div style={{paddingTop:"50px"}} class="content-wrap">
             <img id="about" class="profile-img column-narrow" src={me} alt="Your Name"></img>
