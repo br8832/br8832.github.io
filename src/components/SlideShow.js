@@ -1,6 +1,6 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
-
+import "./SlideShow.css"
 class SlideShow extends React.Component{
     constructor(props){
         super(props);
