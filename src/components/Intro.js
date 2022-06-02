@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../images/Resume.docx'
+import resume from '../images/Bryan_Rodriguez_Resume.pdf'
 import me from '../images/me.jpg'
 class Intro extends React.Component{
     constructor (props){
@@ -13,7 +13,7 @@ class Intro extends React.Component{
         return (<nav class="navbar">
             {this.sections.map((item) =>
                 {return <a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a>})}
-            <a class="download" target="_blank" rel="noreferrer" href={resume} download="Bryan_Rodriguez_Resume.docx"><i class="far fa-file-pdf"></i>Download</a>
+            <a class="download" target="_blank" rel="noreferrer" href={resume} download="Bryan_Rodriguez_Resume.pdf"><i class="far fa-file-pdf"></i>Download</a>
         </nav>)
     }
     showMobileMenu(){
