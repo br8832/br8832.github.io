@@ -53,7 +53,7 @@ class Intro extends React.Component{
             <div class="column-wide">
                 <h1>Bryan Rodriguez</h1>
                 <h2>Computer Science Student trying to get by</h2>
-                <p>I am a Computer Science graduate at CSU, Northridge. I am interested in career opportunity for software engineering such as mobile app/web/database development. I'm willing to take on new technologies to improve my own skills and contribute to any future projects. One of my proudest creations is <a style={{color:'rebeccapurple'}}href="https://comp484-typingtest-br.glitch.me/penguin.html" rel="noreferrer" target="_blank">this</a></p>
+                <p>I am a Computer Science graduate at CSU, Northridge. I am interested in career opportunities for software engineering such as mobile app/web/database development. Anything involving math and numbers, I eagerly await to partake in. I 'm willing to take on new technologies to improve my own skills and contribute to any future projects. Currently, I’m working on my resume site and looking to start another personal project. One of my proudest creations is <a style={{color:'rebeccapurple'}}href="https://comp484-typingtest-br.glitch.me/penguin.html" rel="noreferrer" target="_blank">this</a></p>
             </div>
       </div>
     </header>
