@@ -8,7 +8,7 @@ class Work extends React.Component {
         classes: ["Math 250 - Calc III", "Math 262 - Linear Algebra", "Math 280 - Applied Differential Equations","Math 340 - Intro Probability"]}
         ,{title: "Philosophy Tutor", time:["CSUN", "2017-2021"], description:"The title is philosophy tutor but I don't tutor really tutor philosphy. I tutor more to the formal logic side, the 230 course we take as a comp sci major. I did well in that and my teacher thought I could help other learn. I tutor other courses, but I never took the courses. They are: ", 
         classes: ["Phil 100 - General Logic", "Phil 200 - Critical Reasoning","Phil 230 - Formal Logic"]}
-        ,{title: "Math Tutor", time:["Growing Minds Academic Achievemet Center", "2022-2023"], description:"Using my knowledge of math and computer science, alongside my previous tutoring experience,gained from university, I now help students with the aforementioned subjects as well", 
+        ,{title: "Math Tutor", time:["Growing Minds Academic Achievement Center", "2022-2023"], description:"Using my knowledge of math and computer science, alongside my previous tutoring experience,gained from university, I now help students with the aforementioned subjects as well", 
         classes: ["Geometry", "Precalculus","Calc I","Calc II", "Statistics"]}
     ]
     }
