@@ -80,7 +80,7 @@ a:link:active, a:visited:active {
   cursor: pointer;
 }
 .content-wrap {
-  max-width: 950px;
+  max-width: 85%;
   margin: 0 auto;
   padding: 50px;
   overflow: hidden;
@@ -92,15 +92,18 @@ a:link:active, a:visited:active {
 }
 .profile-img{
   border-radius: 50%;
-}
-.column-narrow{
-  width: 30%; 
-  float: left;  
-  min-height: 175px;
+  display: inline-block;
+  margin: auto
   
 }
+.column-narrow{
+  width: 35%; 
+  float: left;  
+  min-height: 175px;
+ 
+}
 .column-wide{
-  width: 70%; 
+  width: 65%; 
   float: left; 
   padding-left: 3%;
   min-height: 225px;
@@ -260,39 +263,3 @@ footer {
     background-color: #ec5656;
 }
 
-/* slideShow */
-@import "../node_modules/react-slideshow-image/dist/styles.css";
-.slideshow {
-  background-color: #61dafb;
-  font-family: 'PT Sans', sans-serif;
-}
-.slides{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.slide-item{
-  flex: 1;
-  text-align: center;
-}
-.slide-item > a > img:hover  {
-  border:blueviolet 1rem groove 
-}
-.slide-item1{
-  flex: 2;
-  font-size: 1.5rem;
-  text-align: left;
-}
-.myIndicator{
-  cursor:pointer;
-  color:black;
-  text-align:center;
-  padding: 1rem;
-  border-radius:50%;
-  border:1px #222222 solid;   
-}
-.myIndicator.active{
-  background:#9ebb0c;
-  color: #fff;
-}

@@ -1,6 +1,6 @@
 import React from 'react'
 import resume from '../images/Bryan_Rodriguez_Resume.pdf'
-import me from '../images/me.jpg'
+import me from '../images/me.png'
 class Intro extends React.Component{
     constructor (props){
         super(props);
