@@ -1,4 +1,5 @@
 {
+  "homepage": "https://br8832.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -37,9 +38,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "glitch": {
-      "projectType": "generated_static"
-    }
+    ]
+  },
+  "glitch": {
+    "projectType": "generated_static"
   }
 }
