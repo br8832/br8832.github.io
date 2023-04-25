@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.696be8d1.css",
-    "main.js": "/portfolio/static/js/main.680a49b9.js",
+    "main.js": "/portfolio/static/js/main.0d890525.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/portfolio/static/media/me.b712fa8ff8314542410d.png",
     "static/media/spiral.jpg": "/portfolio/static/media/spiral.cb005f124c44f4dc9407.jpg",
-    "static/media/Bryan_Rodriguez_Resume.pdf": "/portfolio/static/media/Bryan_Rodriguez_Resume.12e09055201168cb6a84.pdf",
+    "static/media/Bryan_Rodriguez_Resume.pdf": "/portfolio/static/media/Bryan_Rodriguez_Resume.24d57b5b4395293ce598.pdf",
     "static/media/quiz.jpg": "/portfolio/static/media/quiz.15cea51e77ad4e9cd1f0.jpg",
     "static/media/text-to-speech.png": "/portfolio/static/media/text-to-speech.2baa632666aa6355148a.png",
     "static/media/Cookflex.png": "/portfolio/static/media/Cookflex.56b48ff64a52ff179e02.png",
     "index.html": "/portfolio/index.html",
     "main.696be8d1.css.map": "/portfolio/static/css/main.696be8d1.css.map",
-    "main.680a49b9.js.map": "/portfolio/static/js/main.680a49b9.js.map",
+    "main.0d890525.js.map": "/portfolio/static/js/main.0d890525.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.696be8d1.css",
-    "static/js/main.680a49b9.js"
+    "static/js/main.0d890525.js"
   ]
 }
