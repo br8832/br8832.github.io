@@ -10,7 +10,8 @@ class Education extends React.Component{
             additional_info:"Member of the Association for Computing Machinery(ACM) chapter since 2020"
         }
         this.certificates = [{name:"Google Data Analytics", path:"https://coursera.org/verify/professional-cert/Y4M5L7BRUDM5"},
-        {name:"Google IT Automation", path:"https://coursera.org/verify/professional-cert/M86RQ9G8SZ7S"}]
+        {name:"Google IT Automation", path:"https://coursera.org/verify/professional-cert/M86RQ9G8SZ7S"},
+        {name:"Hackerrank(JavaScript)", path:"https://www.hackerrank.com/certificates/810e555a4811"},]
     }
     details() {
         return(<>

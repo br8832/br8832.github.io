@@ -4,10 +4,12 @@ class Work extends React.Component {
     constructor(props) {
         super(props)
         this.jobs = [
-        {title: "Math tutor", time:["CSUN", "2018-2020"], description:"For a time, I tutored math at CSUN. It was a first for me trying to help someone else understand something I understood. It ended because there was no more time in my schedule. I took and subsequently tutored:", 
-        classes: ["Math 250 - Calc III", "Math 262 - Linear Algebra", "Math 280 - Applied Differential Equations","Math 340 - Intro Probability"]}
-        ,{title: "Philosophy Tutor", time:["CSUN", "2017-2021"], description:"The title is philosophy tutor but I don't tutor really tutor philosphy. I tutor more to the formal logic side, the 230 course we take as a comp sci major. I did well in that and my teacher thought I could help other learn. I tutor other courses, but I never took the courses. They are: ", 
+        {title: "Philosophy Tutor", time:["CSUN", "2017-2021"], description:"After doing well in my formal logic course for my computer science major, my teacher thought I could aid my peers and clarify their questions. Officially called an Instructional Student Assistant (ISA), I conducted 1 on 1 in-person sessions for my peers", 
         classes: ["Phil 100 - General Logic", "Phil 200 - Critical Reasoning","Phil 230 - Formal Logic"]}
+        , {title: "Math Tutor", time:["CSUN", "2018-2020"], description:"Much like my formal logic course, after doing well in my linear algebra course, the head of the math tutoring department contacted me about tutoring for math.  I tutored Calculus I – III, Probability, Differential Equations, and Linear Algebra. As an ISA for math, tutoring was not only 1 on 1, but also in small groups during finals.", 
+        classes: ["Math 250 - Calc III", "Math 262 - Linear Algebra", "Math 280 - Applied Differential Equations","Math 340 - Intro Probability"]}
+        ,{title: "Math Tutor", time:["Growing Minds Academic Achievement Center", "2022-2023"], description: "Using my knowledge of math and computer science, alongside my previous tutoring experience gained from university, I helped students with the aforementioned subjects. All sessions were 1 on 1 in-person or online, depending on the student's preference.", 
+        classes: ["Geometry", "Precalculus","Calc I","Calc II", "Statistics"]}
     ]
     }
     render(){

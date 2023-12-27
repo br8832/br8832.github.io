@@ -1,4 +1,5 @@
 import React from 'react'
+import "./SlideShow.css"
 import { Slide } from 'react-slideshow-image';
 import "./SlideShow.css"
 class SlideShow extends React.Component{
