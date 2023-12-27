@@ -7,11 +7,8 @@ function App() {
     <Route exact path="/">
       <Home/>
     </Route>
-    <Route exact path="/TypingTest/">
-      <TypingTest page={"index"}/>
-    </Route>
-    <Route exact path="/TypingTest/BigE">
-      <TypingTest page={"penguin"}/>
+    <Route exact path="/TypingTest">
+      <TypingTest/>
     </Route>
   </Switch>
   </Router>)
