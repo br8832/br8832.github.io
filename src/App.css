@@ -80,7 +80,7 @@ a:link:active, a:visited:active {
   cursor: pointer;
 }
 .content-wrap {
-  max-width: 85%;
+  max-width: 950px;
   margin: 0 auto;
   padding: 50px;
   overflow: hidden;
@@ -92,18 +92,15 @@ a:link:active, a:visited:active {
 }
 .profile-img{
   border-radius: 50%;
-  display: inline-block;
-  margin: auto
-  
 }
 .column-narrow{
-  width: 35%; 
+  width: 30%; 
   float: left;  
   min-height: 175px;
- 
+  
 }
 .column-wide{
-  width: 65%; 
+  width: 70%; 
   float: left; 
   padding-left: 3%;
   min-height: 225px;
@@ -254,7 +251,7 @@ footer {
     font-weight: bold;
     padding: 0px 3px;
     float: right;
-    font-size: 2.5em;
+    font-size: 2rem;
 }
 .popup-close:hover,
 .popup-close:focus {
@@ -263,3 +260,4 @@ footer {
     background-color: #ec5656;
 }
 
+@import "../node_modules/react-slideshow-image/dist/styles.css";
