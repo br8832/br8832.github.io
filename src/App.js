@@ -1,18 +1,20 @@
-import {Education, Footer, Intro, Projects, Work} from './components'
-import React, {useState} from 'react'
-import './App.css';
+import {Home, TypingTest} from "./pages"
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
-  const [isMobile, setMobile] = useState(false);
-  const toggle = () => setMobile(!isMobile)
-  return (
-      <><Intro isMobile={isMobile} toggle={toggle}/>
-        <Work/>
-        <Projects />
-        <Education />
-        <Footer />
-     </> 
-  );
+ return (<Router>
+  <Switch>
+    <Route exact path="/">
+      <Home/>
+    </Route>
+    <Route exact path="/TypingTest/">
+      <TypingTest page={"index"}/>
+    </Route>
+    <Route exact path="/TypingTest/BigE">
+      <TypingTest page={"penguin"}/>
+    </Route>
+  </Switch>
+  </Router>)
 }
 
 export default App;

@@ -1,8 +1,8 @@
 /* slideShow */
-@import "../../node_modules/react-slideshow-image/dist/styles.css";
+
 .slideshow {
   background-color: #61dafb;
-  font-family: 'Trebuchet MS', 'sans-serif';
+  font-family: 'PT Sans', sans-serif;
 }
 .slides{
   display: flex;
@@ -15,7 +15,8 @@
   text-align: center;
 }
 .slide-item > a > img:hover  {
-  border:blueviolet 1rem groove 
+  border:blueviolet 1rem groove;
+  transition: 0.2s ease-in-out;
 }
 .slide-item1{
   flex: 2;

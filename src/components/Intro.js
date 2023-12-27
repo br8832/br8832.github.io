@@ -1,19 +1,19 @@
 import React from 'react'
-import resume from '../images/Bryan_Rodriguez_Resume.pdf'
-import me from '../images/me.png'
+import resume from '../images/Resume.docx'
+import me from '../images/me.jpg'
+import { Link } from 'react-router-dom';
 class Intro extends React.Component{
     constructor (props){
         super(props);
-        this.state = props.isMobile;
-        this.toggle = props.toggle;
         this.sections = ['about', 'work', 'projects','education', 'contact']
+        this.link = "/TypingTest/"
     }
 
     anchorList(){
         return (<nav class="navbar">
             {this.sections.map((item) =>
-                {return <a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a>})}
-            <a class="download" target="_blank" rel="noreferrer" href={resume} download="Bryan_Rodriguez_Resume.pdf"><i class="far fa-file-pdf"></i>Download</a>
+                {return <a key={item} rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a>})}
+            <a class="download" target="_blank" rel="noreferrer" href={resume} download="Bryan_Rodriguez_Resume.docx"><i class="far fa-file-pdf"></i>Download</a>
         </nav>)
     }
     showMobileMenu(){
@@ -53,7 +53,8 @@ class Intro extends React.Component{
             <div class="column-wide">
                 <h1>Bryan Rodriguez</h1>
                 <h2>Computer Science Student trying to get by</h2>
-                <p>I am a Computer Science graduate at CSU, Northridge. I am interested in career opportunities for software engineering such as mobile app/web/database development. Anything involving math and numbers, I eagerly await to partake in. I 'm willing to take on new technologies to improve my own skills and contribute to any future projects. Currently, I’m working on my resume site and looking to start another personal project. One of my proudest creations is <a style={{color:'rebeccapurple'}}href="https://comp484-typingtest-br.glitch.me/penguin.html" rel="noreferrer" target="_blank">this</a></p>
+                <p>I am a Computer Science graduate at CSU, Northridge. I am interested in career opportunity for software engineering such as mobile app/web/database development. I'm willing to take on new technologies to improve my own skills and contribute to any future projects. 
+                    One of my proudest creations is <Link style={{color:'rebeccapurple'}} to={this.link} rel="noreferrer" target="_blank">this</Link></p>
             </div>
       </div>
     </header>
