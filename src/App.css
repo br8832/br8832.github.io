@@ -1,3 +1,5 @@
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
 .App {
   text-align: center;
 }
@@ -251,7 +253,7 @@ footer {
     font-weight: bold;
     padding: 0px 3px;
     float: right;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .popup-close:hover,
 .popup-close:focus {

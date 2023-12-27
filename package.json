@@ -10,7 +10,8 @@
     "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^2.1.3",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "^5.0.1",
     "react-slideshow-image": "^3.7.3",
     "web-vitals": "^2.1.4"
   },
@@ -42,5 +43,8 @@
   },
   "glitch": {
     "projectType": "generated_static"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
