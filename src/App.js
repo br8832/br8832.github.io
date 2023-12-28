@@ -1,16 +1,16 @@
 import {Home, TypingTest} from "./pages"
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
  return (<Router>
-  <Switch>
-    <Route exact path="/">
-      <Home/>
+  <Routes>
+    <Route  path="/portfolio" element={<Home/>}>
+      
     </Route>
-    <Route exact path="/TypingTest">
-      <TypingTest/>
+    <Route  path="/TypingTest" element={<TypingTest/>}>
+      
     </Route>
-  </Switch>
+  </Routes>
   </Router>)
 }
 
