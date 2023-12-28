@@ -5,7 +5,7 @@ class Intro extends React.Component{
     constructor (props){
         super(props);
         this.sections = ['about', 'work', 'projects','education', 'contact']
-        this.link = "/TypingTest"
+        this.link = "/portfolio/TypingTest"
     }
 
     anchorList(){
