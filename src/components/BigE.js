@@ -49,16 +49,15 @@ var penguin = {
       ((index==2) ? '<p style="margin-top:0;margin-bottom:1.5em;">'+penguin_holder[index][i]+'</p>' : '<p style="margin-top:0;">'+penguin_holder[index][i]+'</p>');
       target.appendChild(element.content.firstChild);
     }
-    
   }
-  export function begin() {
+  export default function begin() {
   //play the audio
   console.log(theTimer)
   let bigE = document.querySelectorAll("img")[0]
   var theme = require('../images/EmperorTheme.mp3')
   bigE.className= "BigE"
   let bgm = new Audio(theme);
-  bgm.volume = 0.5; // adjust this as you need, i like 0.5  
+  bgm.volume = 0.1; // adjust this as you need, i like 0.5  
   bgm.play()
     for(var key in penguin)
     {
