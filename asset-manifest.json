@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.696be8d1.css",
-    "main.js": "/portfolio/static/js/main.0d890525.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.f0ad165a.css",
+    "main.js": "/portfolio/static/js/main.1bb84a91.js",
+    "static/media/EmperorTheme.mp3": "/portfolio/static/media/EmperorTheme.4ef1920f19b3b3a27a25.mp3",
     "static/media/me.png": "/portfolio/static/media/me.b712fa8ff8314542410d.png",
     "static/media/spiral.jpg": "/portfolio/static/media/spiral.cb005f124c44f4dc9407.jpg",
-    "static/media/Bryan_Rodriguez_Resume.pdf": "/portfolio/static/media/Bryan_Rodriguez_Resume.24d57b5b4395293ce598.pdf",
+    "static/media/LoyalToTheBeat.jpeg": "/portfolio/static/media/LoyalToTheBeat.931e915a3d5acec8d18d.jpeg",
     "static/media/quiz.jpg": "/portfolio/static/media/quiz.15cea51e77ad4e9cd1f0.jpg",
+    "static/media/Bryan_Rodriguez_Resume.docx": "/portfolio/static/media/Bryan_Rodriguez_Resume.51408f140a57643fdb81.docx",
+    "static/media/BigE.jpeg": "/portfolio/static/media/BigE.d0e278f36ccf560ab036.jpeg",
     "static/media/text-to-speech.png": "/portfolio/static/media/text-to-speech.2baa632666aa6355148a.png",
     "static/media/Cookflex.png": "/portfolio/static/media/Cookflex.56b48ff64a52ff179e02.png",
     "index.html": "/portfolio/index.html",
-    "main.696be8d1.css.map": "/portfolio/static/css/main.696be8d1.css.map",
-    "main.0d890525.js.map": "/portfolio/static/js/main.0d890525.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.f0ad165a.css.map": "/portfolio/static/css/main.f0ad165a.css.map",
+    "main.1bb84a91.js.map": "/portfolio/static/js/main.1bb84a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.696be8d1.css",
-    "static/js/main.0d890525.js"
+    "static/css/main.f0ad165a.css",
+    "static/js/main.1bb84a91.js"
   ]
 }
