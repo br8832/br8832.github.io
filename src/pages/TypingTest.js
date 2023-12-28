@@ -1,7 +1,5 @@
-// Imported my Typing Test from Github and only use the parts I need
 import React from 'react'
 import '../components/BigE.css'
-import begin from '../components/BigE'
 //https://static.wikia.nocookie.net/mrfz/images/c/c5/Emperor.png/revision/latest?cb=20200511132114
 import Emperor from '../images/BigE.jpeg'
 import LoyalToTheBeat from '../images/LoyalToTheBeat.jpeg'
@@ -47,6 +45,11 @@ this.yourScores = {};
 
   //A completely unncessary script
 componentDidMount(){
+  //console.log(this.reloadCount)
+  if(!sessionStorage.getItem('reloadCount')) {
+    sessionStorage.setItem('reloadCount', 1);
+    alert('forgive the bad css. Will look into it at somepoint')
+  } 
 this.testArea = document.querySelector("#test-area");
 this.originText = document.querySelector("#origin-text");
 this.extra = document.querySelector("#visual-text");
