@@ -48,7 +48,7 @@ componentDidMount(){
   //console.log(this.reloadCount)
   if(!sessionStorage.getItem('reloadCount')) {
     sessionStorage.setItem('reloadCount', 1);
-    alert('forgive the bad css. Will look into it at somepoint')
+    alert('forgive the bad css. Will look into it at somepoint. Also refresh if you want to stop music')
   } 
 this.testArea = document.querySelector("#test-area");
 this.originText = document.querySelector("#origin-text");
@@ -80,7 +80,6 @@ bigE.className= "BigE"
 let bgm = new Audio(theme);
 bgm.volume = 0.25; // adjust this as you need, i like 0.5  
 bgm.play()
-console.log(this)
   for(var key in this.penguin)
   {
     this.yourScores[key] = "";

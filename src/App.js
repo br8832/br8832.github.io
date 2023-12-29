@@ -1,17 +1,17 @@
 import {Home, TypingTest} from "./pages"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
- return (<Router>
+ return (
+  <Router>
   <Routes>
-    <Route path="/portfolio" element={<Home/>}>
-      
+    <Route path="/" element={<Home/>}>
     </Route>
-    <Route path="/portfolio/TypingTest" element={<TypingTest/>}>
-      
+    <Route path="/TypingTest" element={<TypingTest/>}>
     </Route>
   </Routes>
-  </Router>)
+  </Router>
+  )
 }
 
 export default App;

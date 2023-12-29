@@ -1,11 +1,12 @@
 import React from 'react'
 import resume from '../images/Bryan_Rodriguez_Resume.docx'
 import me from '../images/me.png'
+import {Link} from 'react-router-dom'
 class Intro extends React.Component{
     constructor (props){
         super(props);
         this.sections = ['about', 'work', 'projects','education', 'contact']
-        this.link = "/portfolio/TypingTest"
+        this.link = "/TypingTest"
     }
 
     anchorList(){
@@ -53,11 +54,13 @@ class Intro extends React.Component{
                 <h1>Bryan Rodriguez</h1>
                 <h2>Computer Science Student trying to get by</h2>
                 <p>I am a Computer Science graduate at CSU, Northridge. I am interested in career opportunity for software engineering such as mobile app/web/database development. I'm willing to take on new technologies to improve my own skills and contribute to any future projects. 
-                    One of my proudest creations is <a style={{color:'rebeccapurple'}} href={this.link} rel="noreferrer" >this</a></p>
+                    One of my proudest creations is <Link style={{color:'rebeccapurple'}} rel="noreferrer" to={this.link}>this</Link></p>
+                
             </div>
       </div>
     </header>
     );
 }
+// for link 58: <a style={{color:'rebeccapurple'}} href={this.link} rel="noreferrer" >this</a>
 }
 export default Intro;
