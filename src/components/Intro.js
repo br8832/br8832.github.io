@@ -1,7 +1,8 @@
 import React from 'react'
 import resume from '../images/Bryan_Rodriguez_Resume.docx'
 import me from '../images/me.png'
-import {Link} from 'react-router-dom'
+import {HashRouter as Router,Routes,Route, Link} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 class Intro extends React.Component{
     constructor (props){
         super(props);
@@ -12,7 +13,7 @@ class Intro extends React.Component{
     anchorList(){
         return (<nav className="navbar">
             {this.sections.map((item) =>
-                {return <a rel="noreferrer" href={"#"+item}>{item[0].toUpperCase()+item.slice(1)}</a>})}
+                {return <HashLink to={`/#${item}`}>{item[0].toUpperCase()+item.slice(1)}</HashLink>})}
             <a className="download" target="_blank" rel="noreferrer" href={resume} download="Bryan_Rodriguez_Resume.docx"><i class="far fa-file-pdf"></i>Download</a>
         </nav>)
     }
